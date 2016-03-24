@@ -1,3 +1,56 @@
-body {
-	background: red;
+$font-text: arial;
+$text-color: grey;
+$text-size: 12px;
+$bg-color: #222;
+
+
+.clearFix {
+	clear: both;
 }
+
+body {
+	width : 100%;
+	margin: 0 auto;
+}
+
+p {
+	color: $text-color;
+	font-size: $text-size;
+}
+
+a {
+	color: white;
+	font-size: $text-size;
+}
+
+li {
+	margin-left: -15px;
+	color: $text-color;
+	font-size: $text-size;
+}
+
+footer {
+	width: 100%;
+	font-size: $text-size;
+}
+
+.footer-top-container {
+	min-height: 400px;
+	background-color: $bg-color;
+	text-align: center;
+}
+
+.single-footer-top {
+	float: left;
+	text-align: justify;
+	display: block;
+	width: 300px;
+}
+
+.footer-bottom {
+	display: block;
+}
+
+
+
+
