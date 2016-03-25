@@ -16,8 +16,6 @@ body {
 }
 
 .main_content_container{
-	//margin-left: -25px;
-	border: 5px solid;
 	width: 800px;
 }
 
@@ -33,6 +31,12 @@ img{
 
 .floatleft{
 	float: left;
+	width: auto;
+	display: inline-block;
+}
+
+.floatright{
+	float: right;
 	width: 50%;
 	display: inline-block;
 }
@@ -107,13 +111,17 @@ a:hover{
 
 .home_single_page_content_latest_post{
 	margin-left: 25px;
-	padding-right: 20px;	
+	padding-right: 20px;
+
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	//width: 700px;
 }
 
 .latest_post_img {
-    /*border: 1px solid #DDD;
     margin-right: 10px;
-    padding: 3px;*/
+    padding: 3px;
 
 
     border: 1px solid #DDD;
@@ -125,4 +133,8 @@ a:hover{
 .latest_post_img img {
     height: 90px;
     width: 170px;
+}
+
+.latest_post_title{
+	width: 397px;
 }
