@@ -1,0 +1,128 @@
+$primary-color: silver;
+$primary-size: 12px;
+
+/*@font-face { 
+  font-family: 'HelveticaNeue'; 
+  src: url('fonts/HelveticaNeue.ttf'); 
+}*/
+
+
+body {
+	//background: $primary-color;
+	font-size: $primary-size;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	width: 280px;
+}
+
+.main_content_container{
+	//margin-left: -25px;
+	border: 5px solid;
+	width: 800px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: outside none none;
+}
+ 
+img{
+	max-width: 100%;
+}
+
+.floatleft{
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+
+.home_single_page_content_features{
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 10px;
+}
+
+.home_single_page_content_features > a img {
+    border: 1px solid #DDD;
+    height: 155px;
+    padding: 5px;
+    width: 268px;
+}
+
+.home_single_page_content_posts{
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 10px;
+}
+
+.home_single_page_content_posts li{
+	padding: 10px 0px;
+	border-bottom: 1px solid #DDD;
+}
+
+.home_single_page_content_posts_img img {
+    height: 45px;
+    width: 45px;
+    float: left;
+}
+
+.home_single_page_content_posts_img {
+    border: 1px solid #DDD;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.home_single_page_content_posts_title{
+	float: right;
+	width: 218px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.home_single_page_content{
+    margin-left: 25px;
+	width: 280px;
+	margin-bottom: 30px;
+}
+
+.home_single_page_content h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: #E47600;
+}
+
+.home_single_page_content_posts_title > a{
+	font-weight: bold;
+	font-size: $primary-size;
+}
+
+.home_single_page_content_latest_post{
+	margin-left: 25px;
+	padding-right: 20px;	
+}
+
+.latest_post_img {
+    /*border: 1px solid #DDD;
+    margin-right: 10px;
+    padding: 3px;*/
+
+
+    border: 1px solid #DDD;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.latest_post_img img {
+    height: 90px;
+    width: 170px;
+}
