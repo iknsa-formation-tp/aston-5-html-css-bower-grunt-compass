@@ -50,6 +50,8 @@ h2 h3 h4 h5 h6 {
 	font-size: 12px;
 	padding-top: 25px;
 	margin-left: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
 	height: 60px;
 	border-right: 5px solid #666;
 }
@@ -104,9 +106,17 @@ h2 h3 h4 h5 h6 {
 	text-decoration: none;
 }
 
-.single_page_content div.size_h2_related_post > h2 {
-	font-size: 18px;
-	font-style: italic !important;
-	line-height: 22px;
-	color: red;
+.single_page_content div.size_h2_related_post span a:hover {
+	color: #000;
+}
+
+.related_post{
+	background: transparent url("/images/title_bg.png") repeat scroll 0px 0px;
+	text-decoration: none;
+	font-weight: none;
+}
+
+.related_post h2{
+	text-decoration: none;
+	font-weight: none;
 }
